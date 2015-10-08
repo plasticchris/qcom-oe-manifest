@@ -15,6 +15,8 @@
   <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
   <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
   <project path="sources/meta-qcom" name="ndechesne/meta-qcom" />
-  <project path="sources/conf" name="ndechesne/qcom-oe-setup" />
+  <project path="sources/conf" name="ndechesne/qcom-oe-setup">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
 </manifest>
