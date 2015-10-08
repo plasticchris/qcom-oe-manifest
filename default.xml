@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="linaro"
+          fetch="http://git.linaro.org" />
+
+  <remote name="oe"
+          fetch="git://git.openembedded.org" />
+
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <default remote="github" revision="master" sync-j="2" />
+
+  <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
+  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
+  <project path="sources/meta-qualcomm" name="ndechesne/meta-qualcomm" />
+
+</manifest>
