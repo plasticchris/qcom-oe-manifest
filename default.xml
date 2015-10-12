@@ -10,10 +10,11 @@
   <remote name="github"
           fetch="https://github.com" />
 
-  <default remote="github" revision="master" sync-j="2" />
+  <default remote="github" revision="jethro" sync-j="2" />
 
   <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
-  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
+  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"
+           revision="1.28" />
   <project path="sources/meta-qcom" name="ndechesne/meta-qcom" />
   <project path="sources/conf" name="ndechesne/qcom-oe-setup">
     <linkfile dest="setup-environment" src="setup-environment"/>
