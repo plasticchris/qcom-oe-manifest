@@ -17,7 +17,7 @@
            revision="1.28" />
   <project path="sources/meta-qcom" name="ndechesne/meta-qcom" revision="master" />
   <project path="sources/meta-openembedded"
-           name="openembedded/meta-openembedded" revision="master" />
+           name="openembedded/meta-openembedded" />
   <project path="sources/meta-browser" name="linaro-home/meta-browser"
            revision="chromium_45" />
   <project path="sources/conf" name="ndechesne/qcom-oe-setup" revision="master">
