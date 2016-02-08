@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="linaro"
-          fetch="http://git.linaro.org" />
+  <remote name="github" fetch="https://github.com"/>
+  <remote name="linaro" fetch="http://git.linaro.org"/>
+  <remote name="oe" fetch="git://git.openembedded.org"/>
 
-  <remote name="oe"
-          fetch="git://git.openembedded.org" />
+  <default remote="github" revision="master" sync-j="2"/>
 
-  <remote name="github"
-          fetch="https://github.com" />
-
-  <default remote="github" revision="master" sync-j="2" />
-
-  <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
-  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
-  <project path="sources/meta-qcom" name="ndechesne/meta-qcom" />
-  <project path="sources/meta-96boards" name="96boards/meta-96boards"/>
-  <project path="sources/meta-rpb" name="96boards/meta-rpb"/>
-  <project path="sources/meta-openembedded"
-           name="openembedded/meta-openembedded" revision="master" />
-  <project path="sources/meta-browser" name="linaro-home/meta-browser"
-           revision="chromium_45" />
   <project path="sources/conf" name="ndechesne/qcom-oe-setup">
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
+
+  <project path="sources/meta-96boards" name="96boards/meta-96boards"/> 
+  <project path="sources/meta-browser" name="linaro-home/meta-browser" revision="chromium_45"/>
+  <project path="sources/meta-openembedded" name="openembedded/meta-openembedded"/>
+  <project path="sources/meta-qcom" name="ndechesne/meta-qcom"/>
+  <project path="sources/meta-rpb" name="96boards/meta-rpb"/>
+  <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
+  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
 
 </manifest>
