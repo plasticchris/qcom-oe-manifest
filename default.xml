@@ -16,6 +16,7 @@
   <project path="sources/meta-openembedded" name="openembedded/meta-openembedded"/>
   <project path="sources/meta-qcom" name="ndechesne/meta-qcom" revision="master"/>
   <project path="sources/meta-rpb" name="96boards/meta-rpb" revision="master"/>
+  <project path="sources/meta-backports" name="openembedded/meta-backports" remote="linaro"/>
   <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
   <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake" revision="1.28"/>
 
