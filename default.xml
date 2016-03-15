@@ -18,5 +18,6 @@
   <project path="sources/meta-rpb" name="96boards/meta-rpb"/>
   <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
   <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
+  <project path="sources/meta-linaro" name="openembedded/meta-linaro" remote="linaro"/>
 
 </manifest>
