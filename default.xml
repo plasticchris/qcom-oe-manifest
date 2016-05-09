@@ -7,9 +7,9 @@
 
   <default remote="github" revision="krogoth" sync-j="2"/>
 
-  <project path="sources/meta-openembedded" name="openembedded/meta-openembedded"/>
-  <project path="sources/meta-qcom" name="ndechesne/meta-qcom"/>
-  <project path="sources/openembedded-core" name="openembedded/openembedded-core"/>
-  <project path="sources/openembedded-core/bitbake" name="openembedded/bitbake"/>
+  <project path="meta-openembedded" name="openembedded/meta-openembedded"/>
+  <project path="meta-qcom" name="ndechesne/meta-qcom"/>
+  <project path="openembedded-core" name="openembedded/openembedded-core"/>
+  <project path="openembedded-core/bitbake" name="openembedded/bitbake"/>
 
 </manifest>
