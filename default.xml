@@ -5,7 +5,7 @@
   <remote name="linaro" fetch="http://git.linaro.org"/>
   <remote name="oe" fetch="git://git.openembedded.org"/>
 
-  <default remote="github" revision="master" sync-j="2"/>
+  <default remote="github" revision="krogoth" sync-j="2"/>
 
   <project path="sources/meta-openembedded" name="openembedded/meta-openembedded"/>
   <project path="sources/meta-qcom" name="ndechesne/meta-qcom"/>
