@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github" fetch="https://github.com"/>
-  <remote name="linaro" fetch="http://git.linaro.org"/>
-  <remote name="oe" fetch="git://git.openembedded.org"/>
-
   <default remote="github" revision="krogoth" sync-j="4"/>
 
-  <project path="meta-openembedded" name="openembedded/meta-openembedded"/>
-  <project path="meta-qcom" name="ndechesne/meta-qcom"/>
-  <project path="openembedded-core" name="openembedded/openembedded-core"/>
-  <project path="openembedded-core/bitbake" name="openembedded/bitbake"/>
+  <remote fetch="https://github.com" name="github"/>
+
+  <project name="openembedded/openembedded-core" path="layers/openembedded-core"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded"/>
+  <project name="openembedded/bitbake" path="bitbake"/>
+  <project name="ndechesne/meta-qcom" path="layers/meta-qcom">
+    <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
+  </project>
 
 </manifest>
